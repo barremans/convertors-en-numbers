@@ -44,39 +44,3 @@ void loop() {
   delay(3000);
 
 }
-
-/*
-void randomSUM(int min, int max, int startnbr){
-    //display add the random number to the start number and then to the previous 
-
-
-   //generate a random number
-    randNumber = random(min,max); // min and max
-
- if (didMyOneTimeAction == false){
-    didMyOneTimeAction = true;
-   Serial.print("startnbr: ");
-   Serial.println(startnbr);
-    ResultNbr = randNumber + startnbr;
-    S_ResultNbr = ResultNbr;
-      Serial.print("The Random Nbr is = ");
-   Serial.println(randNumber);
-   Serial.print("Result: ");
-   Serial.println(ResultNbr);
-    Serial.println("--------------------");
-   S_ResultNbr = ResultNbr;
- }
-  if(didMyOneTimeAction == true){
-//////////////
-      Serial.print("Previous: ");
-      Serial.println(S_ResultNbr);
-  ResultNbr = randNumber + S_ResultNbr;
-  Serial.print("The Random Nbr is = ");
-  Serial.println(randNumber);
-     S_ResultNbr = ResultNbr;
-      Serial.print("Result: ");
-      Serial.println(S_ResultNbr);
-      Serial.println("--------------------");
-  }
-}
-*/
